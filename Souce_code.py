@@ -1,5 +1,5 @@
 import re
-import html
+
 
 class data_extractor:
     def __init__(self):
