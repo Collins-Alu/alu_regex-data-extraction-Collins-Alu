@@ -12,3 +12,14 @@ class data_extractor:
 
         self.hashtags = re.compile (r'\^#[a-zA-Z0-9_]+$')
 
+    def redact_credit_card_number(self, match):
+
+        raw_cc = match.group()
+
+        digits = re.sub(r'\D', '', raw_cc)
+
+        if len(digits) == 16:
+            return f"XXXX-XXXX-XXXX-{digits[-4:]}"
+        return raw_cc
+    
+
