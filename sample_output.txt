@@ -1,0 +1,16 @@
+- Extracted data-
+Emails:
+ -c.wairimu@alustudent.com
+ -c.gathungu@alustudent.com
+
+Phone number:
+ -0738292933
+ -07987654321
+
+Credit Card Numbers:
+ -1234-4321-0987-7890 
+ -6776-6996-7676-9696
+
+Hashtags:
+ -#UniversityLife 
+ -#SoftwaeEngineering
